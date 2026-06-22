@@ -1,0 +1,98 @@
+/* Fondo de la página */
+body {
+    background-color: #0b3d2e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #111111 !important;
+}
+
+.navbar-brand {
+    color: #d4af37 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+/* Encabezado */
+header {
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Carrusel */
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Título de secciones */
+h2,
+h3 {
+    color: #d4af37;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid #d4af37;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #d4af37;
+    border: none;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #b8860b;
+}
+
+/* Aside */
+aside {
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #111111;
+    color: white;
+    margin-top: 40px;
+}.encabezado {
+    background-color: #0b3d2e;
+    color: white;
+}
+
+.encabezado p {
+    color: white;
+}

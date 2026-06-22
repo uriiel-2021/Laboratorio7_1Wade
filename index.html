@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Configuración básica -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore Wade</title>
+
+    <!-- Bootstrap y CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<!--Barra de navegacion-->
+
+<nav class="navbar navbar-expand-1g navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">TechStore Wade</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="ofertas.html">ofertas</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+  <!-- Encabezado principal -->
+    <header class="text-center p-5 encabezado">
+        <h1>Bienvenidos a TechStore Wade</h1>
+        <p>Tienda online básica de productos tecnológicos.</p>
+        <a href="productos.html" class="btn btn-primary">Ver productos</a>
+    </header>
+
+         <!-- Carrusel -->
+    <section class="container mt-4">
+
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="imagenes/banner1.jpg" class="d-block w-100" alt="Laptop Gaming">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/banner2.jpg" class="d-block w-100" alt="Smartphone">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/banner3.jpg" class="d-block w-100" alt="Audifonos">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!--Productos-->
+
+    <main class="container mt-5">
+
+      <h2 class="text-center mb-4">Productos Destacados</h2>
+
+        <div class="row">
+
+            <article class="col-md-4 mb-4">
+
+                <div class="card producto">
+
+                    <img src="imagenes/laptop.jpg" class="card-img-top" alt="Laptop">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">Laptop</h5>
+
+                        <p class="card-text">
+                            Laptop para estudios y Gaming.
+                        </p>
+
+                        <a href="productos1.html" class="btn btn-primary">Ver más</a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class=" col-md-4 mb-4">
+
+                <div class="card producto">
+
+                    <img src="Imagenes/celular.jpg" class="card-img-top" alt="celular">
+                    <div class="card-body">
+
+                        <h5 class="card-title">celular</h5>
+                            <p class="card-text">Smartphone para Gaming.</p>
+                        <a href="productos2.html" class="btn btn-primary">Ver mas</a>
+
+                
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-md-4 mb-4">
+
+                <div class="card producto">
+
+                    <img src="Imagenes/audifonos.jpg" class="card-img-top" alt="audifonos">
+                    <div class="card-body">
+                        <h5 class="card-title">Audifonos</h5>
+                        <p class="card-text">Sonido de alta calidad</p>
+
+                        <a href="productos3.html" class="btn btn-primary">Ver mas</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+ </main>
+
+
+<!--Informacion adicional-->
+
+<aside class="container text-center mb-5">
+
+<h3 Compra Online facil y segura></h3>
+
+<p> Realiza tu compras en cualquier dispositivo</p>
+
+</aside>
+
+<!--Pie de pagina-->
+
+<footer class="bg-dark text-white text-center p-3">
+
+<p>Laboratorio 7.1 </p>
+
+</footer>
+
+  <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
